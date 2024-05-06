@@ -1,0 +1,23 @@
+nav {
+  /* max-width: 768px; */
+  margin-inline: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 3px solid black;
+}
+
+nav > .navLogo {
+  font-size: 2.5rem;
+}
+
+nav > .navHomeLink {
+  font-size: 1.4rem;
+}
+
+nav > button {
+  background-color: transparent;
+  border: 1px solid gray;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
